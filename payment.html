@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ชำระเงิน</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background:#9c6532;
+}
+
+/* Header */
+
+header{
+    background:#f3e3c5;
+    padding:15px 40px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+    color:#5a3416;
+}
+
+nav{
+    display:flex;
+    align-items:center;
+    gap:25px;
+}
+
+nav a{
+    text-decoration:none;
+    color:#222;
+    font-weight:600;
+    font-size:18px;
+}
+
+nav a:hover{
+    color:#ff5f8f;
+}
+
+/* Content */
+
+.container{
+    width:90%;
+    margin:auto;
+    padding:30px 0;
+}
+
+.title{
+    text-align:center;
+    color:white;
+    margin-bottom:30px;
+}
+
+.product-card{
+
+    background:#f4dede;
+
+    border-radius:20px;
+
+    padding:20px;
+
+    margin-bottom:20px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+}
+
+.left{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:20px;
+}
+
+.left img{
+
+    width:130px;
+
+    height:130px;
+
+    object-fit:contain;
+}
+
+.qty{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+}
+
+.qty button{
+
+    width:40px;
+
+    height:40px;
+
+    border:none;
+
+    border-radius:8px;
+
+    background:white;
+
+    font-size:22px;
+
+    cursor:pointer;
+}
+
+.total-box{
+
+    background:#f4dede;
+
+    border-radius:20px;
+
+    padding:25px;
+
+    text-align:center;
+}
+
+.confirm{
+
+    background:#9df0b3;
+
+    border:none;
+
+    padding:15px 40px;
+
+    border-radius:10px;
+
+    margin-top:15px;
+
+    cursor:pointer;
+
+    font-size:18px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+👠 BENZ SHOES
+</div>
+
+<nav>
+<a href="index.html">หน้าแรก</a>
+<a href="about.html">เกี่ยวกับ</a>
+<a href="product.html">สินค้า</a>
+<a href="payment.html">ชำระเงิน</a>
+<a href="contact.html">ติดต่อเรา</a>
+<a href="payment.html">🛒</a>
+</nav>
+
+</header>
+
+<div class="container">
+
+<h1 class="title">
+รถเข็นสินค้า
+</h1>
+
+<div class="product-card">
+
+<div class="left">
+
+<img src="2026-L3-CK1-60051108-01-3-removebg-preview.png">
+
+<div>
+
+<h2>รองเท้าทำงาน</h2>
+
+<p>ราคา 1,200 บาท</p>
+
+</div>
+
+</div>
+
+<div class="qty">
+
+<button>-</button>
+
+<span>1</span>
+
+<button>+</button>
+
+</div>
+
+</div>
+
+<div class="product-card">
+
+<div class="left">
+
+<img src="2026-L3-CK1-60361618-07-3-removebg-preview.png">
+
+<div>
+
+<h2>รองเท้าส้นสูง</h2>
+
+<p>ราคา 1,190 บาท</p>
+
+</div>
+
+</div>
+
+<div class="qty">
+
+<button>-</button>
+
+<span>1</span>
+
+<button>+</button>
+
+</div>
+
+</div>
+
+<div class="total-box">
+
+<h2>
+ยอดรวม : 2,390 บาท
+</h2>
+
+<button class="confirm">
+ยืนยันการสั่งซื้อ
+</button>
+
+</div>
+
+</div>
+
+</body>
+</html>
